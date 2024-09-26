@@ -1,0 +1,99 @@
+/* Expert List Container Styling */
+.expert-list-container {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1400px; /* Increase the max-width for a larger table */
+  margin: 0 auto;
+}
+.headb{
+  display: flex;
+
+}
+
+/* Table Container for Button Positioning */
+.table-container {
+  position: relative; /* Enables positioning of the filter button */
+  margin-top: 20px; /* Slight margin to move table down */
+}
+
+/* Filter Button Styling */
+.filter-button {
+  width: 80px;
+  height: 40px;
+  margin-left: 500px;
+ /* Absolute positioning to the container */
+ /* Position from the top of the table */
+ /* Adjusts the button to the right */ /* Minimized padding */
+  font-size: 12px; /* Reduced font size */
+  background-color: #3498db; /* Button color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1; /* Ensure it is above the table */
+}
+
+/* Scrollable Table Styling */
+.scrollable-table {
+  max-height: 400px; /* Adjust this height as needed */
+  overflow-y: auto; /* Vertical scrolling */
+  margin-top: 30px; /* Space between button and table */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+/* Expert Table Styling */
+.expert-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px; /* Increase the font size */
+  min-width: 1200px; /* Set a larger minimum width for the table */
+}
+
+/* Sticky Header Styling */
+.expert-table th {
+  position: sticky; /* Make header sticky */
+  top: 0; /* Stick to the top of the scrolling area */
+  background-color: #f4f4f4; /* Background color for header */
+  font-weight: bold;
+  font-size: 12px; /* Increase font size in the header */
+  z-index: 2; /* Ensure header is above table rows */
+}
+
+/* Table Data Styling */
+.expert-table th, .expert-table td {
+  padding: 15px; /* Adjusted padding for consistent spacing */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table Data Cell Styling */
+.expert-table td {
+  background-color: #fff;
+  font-size: 12px; /* Adjust font size for table rows */
+}
+
+/* Edit Button Styling */
+.edit-button {
+  padding: 8px 12px;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling the scrollbar */
+.scrollable-table::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.scrollable-table::-webkit-scrollbar-thumb {
+  background-color: #bdc3c7;
+  border-radius: 10px;
+}
+
+.scrollable-table::-webkit-scrollbar-track {
+  background-color: #ecf0f1;
+}
